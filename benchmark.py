@@ -1,4 +1,5 @@
 import time
+from typing import List, Tuple, Callable
 
 def generate_sequential_workload(n):
     # -> Tuple[List[int], List[int]]

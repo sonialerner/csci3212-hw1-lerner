@@ -1,3 +1,15 @@
+from typing import List, Tuple, Callable
+
+#
+# data classes
+#
+
+class SplayNode:
+    pass
+
+class SplayTree:
+    pass
+
 def zig(key):
     pass
 

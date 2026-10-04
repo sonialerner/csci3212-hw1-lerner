@@ -1,3 +1,15 @@
+from typing import List, Tuple, Callable
+
+#
+# data classes
+#
+
+class AVLNode:
+    pass
+
+class AVLOrderStatisticTree:
+    pass
+
 
 def rotate_right(key):
     pass
