@@ -5,40 +5,44 @@ from typing import List, Tuple, Callable
 #
 
 class AVLNode:
-    pass
+    key: int
+    value: int
+    height: int
+
+    def bf(self) -> int:
+        return 0
 
 class AVLOrderStatisticTree:
-    def rotate_right(self, key):
-        pass
+    root: AVLNode | None
 
-    def rotate_left(self, key):
-        pass
+    def rotate_right(self, key) -> bool:
+        return False
 
-    def rr_case(self, key):
-        pass
+    def rotate_left(self, key) -> bool:
+        return False
 
-    def ll_case(self, key):
-        pass
+    def rr_case(self, key) -> bool:
+        return False
 
-    def rl_case(self, key):
-        pass
+    def ll_case(self, key) -> bool:
+        return False
 
-    def lr_case(self, key):
-        pass
+    def rl_case(self, key) -> bool:
+        return False
+
+    def lr_case(self, key) -> bool:
+        return False
 
     def insert(self, key, value=None) -> None:
-        pass
-
-    def search(self, key):
         pass
 
     def delete(self, key) -> bool:
         return False 
 
-    def find(self, key):
+    def find(self, key) -> int | None:
         pass
 
-    def select(self, k):
+    def select(self, k) -> int | None:
         pass
 
     def rank(self, key) -> int:
