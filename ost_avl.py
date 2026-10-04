@@ -1,4 +1,22 @@
 
+def rotate_right(key):
+    pass
+
+def rotate_left(key):
+    pass
+
+def rr_case(key):
+    pass
+
+def ll_case(key):
+    pass
+
+def rl_case(key):
+    pass
+
+def lr_case(key):
+    pass
+
 def insert(key, value=None) -> None:
     pass
 
