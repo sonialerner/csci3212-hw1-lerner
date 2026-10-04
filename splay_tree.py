@@ -8,34 +8,32 @@ class SplayNode:
     pass
 
 class SplayTree:
-    pass
+    def zig(self, key):
+        pass
 
-def zig(key):
-    pass
+    def zig_zig(self, key):
+        pass
 
-def zig_zig(key):
-    pass
+    def zig_zag(self, key):
+        pass
 
-def zig_zag(key):
-    pass
+    def splay(self, key):
+        pass
 
-def splay(key):
-    pass
+    def insert(self, key, value=None) -> None:
+        pass
 
-def insert(key, value=None) -> None:
-    pass
+    def search(self, key):
+        pass
 
-def search(key):
-    pass
+    def delete(self, key) -> bool:
+        return False
 
-def delete(key) -> bool:
-    return False
+    def to_inorder_keys(self):
+        pass
 
-def to_inorder_keys():
-    pass
+    def root_key(self):
+        pass
 
-def root_key():
-    pass
-
-def size() -> int:
-    return 0
+    def size(self) -> int:
+        return 0
