@@ -23,6 +23,8 @@ In an AVL tree of height $h$, inserting a new key requires tracing a path from t
 
 1. **Proof of Single/Double Rotation Sufficiency on Insertion:**  
    Let $z$ be the deepest unbalanced ancestor after an insertion. Prove that restoring balance at $z$ via a single (LL/RR) or double (LR/RL) rotation restores the height of the subtree rooted at $z$ to its exact pre-insertion height. Explain why this guarantees that no ancestor above $z$ has its balance factor altered, proving that at most one restructuring suffices.
+
+
 2. **Mechanism of Cascading Deletion:**  
    Explain why restoring balance at an unbalanced node $z$ via rotation after a deletion may decrease the overall height of $z$'s restructured subtree by 1. Detail how this height reduction can propagate an imbalance to $z$'s parent, continuing potentially all the way to the root.
 3. **Worst-Case Minimal AVL Tree Construction ($T_5$):**  
